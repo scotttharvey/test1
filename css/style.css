@@ -1,0 +1,275 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600|Lato:400,100,300|Oswald:400,300);
+html , body {
+   box-sizing: border-box;
+}
+*, *​:before, *:after {
+   box-sizing: inherit;
+}
+body {
+   margin: 0;
+   padding: 0;
+}
+
+
+.top-home-main{
+  background:  url("../img/guy.jpg");
+  width: 100%;
+  height: 450px;
+  content: " ";
+  top:0;
+
+  background-size: cover;
+}
+.nav-wrapper{
+  width: 100%;
+  height: 75px;
+  background-color: clear;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+
+}
+.hamburger{
+
+
+  position: absolute;
+  top:24px;
+  right:0;
+  padding-right: 20px;
+  height: 50px;
+
+
+}
+
+.nav {
+  display: none;
+  background: black;
+  height: 20px;
+  width: 65%;
+
+}
+.menu-button{
+  color:white;
+}
+
+.top-logo{
+  background: url("../img/main-logo.png") no-repeat;
+  height:50px;
+  width:280px;
+  margin: 10px;
+
+}
+.head-container{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top:76px;
+  font-family: 'lato';
+  font-weight: 200;
+
+}
+
+.head-container .font-sans {
+  color: white;
+  text-align: center;
+  display: block;
+  display: flex;
+  flex-direction: column;
+
+}
+.head-container span{
+  color:white;
+  text-align: center;
+}
+.head-container  .ideas{
+  color:#ace600;
+}
+.head-container .solutions {
+  color:orange;
+}
+
+.head-container .learn-more{
+  background-color: #ace600;
+  color:white;
+  width: 180px;
+  text-align: center;
+  font-size: 12px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+  border-radius: 5px;
+
+
+}
+.learn-more p{
+  margin-top: 7px;
+  color:white;
+
+}
+.word-container {
+ margin: 0 auto;;
+ display: -webkit-inline-box;
+}
+.left-block, .right-block {
+ width: 40px;
+ height: 5px;
+ background: white;
+ margin: 9px;
+}
+@media (max-width: 400px){
+  .word-container{
+    width: 200px;
+  }
+
+}
+.second-container p{
+  color:#009999;
+  font-weight: 300;
+  font-size:23px;
+  line-height: 38px;
+  font-family: 'Open Sans';
+  text-align: center;
+
+
+}
+.pencil-pic{
+  background: url("../img/firstpic.png")no-repeat;
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.works h3{
+  text-transform: uppercase;
+font-weight: 400;
+font-size: 42px;
+font-family: 'Oswald';
+/*margin: 0 auto;*/
+text-align: center;
+}
+
+.works .big-works{
+
+ color: #bdd537 ;
+ font-weight: bold;
+ font-style: normal;
+ font-family: 'Oswald';
+
+}
+
+.light-pic{
+  background: url("../img/fourthpic.png")no-repeat;
+  height: 150px;
+  width: 130px;
+  margin: 0 auto;
+}
+
+
+.light-text{
+  margin:0 auto;
+  text-align: center;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  line-height: 25px;
+  color:#8f8787
+}
+.Learn-About{
+  color:#bdd537;
+  text-align: center;
+  line-height: 24px;
+}
+ a{
+  text-decoration: none;
+}
+.arrow{
+  background: url('../img/thirdpic.png')no-repeat;
+  height: 150px;
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 180px; s
+
+}
+.arrow-text{
+  margin:0 auto;
+  text-align: center;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  line-height: 25px;
+  color:#8f8787
+}
+.green-text{
+  color:#bdd537;
+}
+
+.power-sign{
+  background: url('../img/secondpic.png')no-repeat;
+  height: 150px;
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 160px; s
+}
+.power-text{
+  argin:0 auto;
+  text-align: center;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  line-height: 25px;
+  color:#8f8787
+}
+
+.container3-bottom{
+  margin-top: 50px;
+  height:100px
+
+}
+
+.container4{
+  color:#40666d;
+  font-family: 'Open Sans';
+  text-align: center;
+  background-color: #f2f2f2;
+}
+.big-text-works{
+  font-family: 'Oswald';
+  font-size: 42px;
+  line-height: 46px;
+  font-weight: 300;
+  margin-top: -30px;
+
+}
+.big-help{
+
+    font-family: 'Oswald';
+    font-size: 42px;
+    line-height: 46px;
+    font-weight: 300;
+    color:#bdd537
+
+  }
+  .text4{
+    font-weight: 500;
+    font-family: 'Arial';
+    font-size:22px;
+    line-height: 24px;
+    
+  }
+
+
+
+@media (min-width : 700px){
+
+.hamburger{
+  display:none;
+}
+}
+
+@media (min-width: 900px) {
+  .nav{
+    display: none
+  }
+
+}
+}
